@@ -21,7 +21,7 @@ class ContactType extends AbstractType
             ->add('username', TextType::class, [
                 'attr' => [
                     'class' => 'form-control col-md-4',
-                    'placeholder' => 'Your name'
+                    'placeholder' => 'Nom, prénom'
                 ],
                  'required' => true,
                 'label' => false
@@ -29,7 +29,7 @@ class ContactType extends AbstractType
             ->add('email', EmailType::class, [
                 'attr' => [
                     'class' => 'form-control col-md-4',
-                    'placeholder' => 'Your email'
+                    'placeholder' => 'Email'
                 ],
                 'required' => true,
                 'label' => false
@@ -37,7 +37,7 @@ class ContactType extends AbstractType
             ->add('phone', TelType::class, [
                 'attr' => [
                     'class' => 'form-control col-md-4',
-                    'placeholder' => 'Your phone number'
+                    'placeholder' => 'Numéro de téléphone'
                 ],
                 'required' => true,
                 'label' => false
@@ -45,7 +45,7 @@ class ContactType extends AbstractType
             ->add('address', TextType::class, [
                 'attr' => [
                     'class' => 'form-control',
-                    'placeholder' => 'Your address'
+                    'placeholder' => 'Adresse'
                 ],
                 'required' => true,
                 'label' => false
@@ -53,7 +53,7 @@ class ContactType extends AbstractType
             ->add('message', TextareaType::class, [
                 'attr' => [
                     'class' => 'form-control',
-                    'placeholder' => 'Your message'
+                    'placeholder' => 'Message'
                 ],
                 'required' => true,
                 'label' => false

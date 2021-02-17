@@ -176,8 +176,8 @@
 	margin-top:-70px
 }
 
-.owl-carousel .owl-item:hover, .owl-carousel .portfolio-item a:hover { 
-	cursor: url(../../img/drag.png), auto;
+.owl-carousel .owl-item:hover, .owl-carousel .portfolio-item a:hover {
+	cursor: auto;
 } 
 
 #single-slider .owl-controls {

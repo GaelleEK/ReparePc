@@ -1324,7 +1324,9 @@ footer.white-wrapper .social-links li a {
     clear: both;
     position: relative;
     display: block;
+    margin-top: 90px;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  16 - FORM CONTROL
@@ -1381,7 +1383,6 @@ input#center_form_lon {
 .form-control.col-md-4,
 .form-control.col-md-4:focus {
     width: 32.33333%;
-    border-bottom: none;
     border: 2px solid;
     background-color: transparent;
     margin: 0 0.5% 10px;
@@ -1390,7 +1391,9 @@ input#center_form_lon {
 /*.form-control.col-md-4:focus, textarea#comments:focus  {*/
 /*    border: 2px solid #D31E44;*/
 /*}*/
-.form-control.col-md-4:focus, textarea#contact_message:focus  {
+.form-control.col-md-4:focus,
+textarea#contact_message:focus,
+input#contact_address:focus {
     border: 2px solid #D31E44;
 }
 
