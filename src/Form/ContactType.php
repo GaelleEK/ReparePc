@@ -58,7 +58,11 @@ class ContactType extends AbstractType
                 'required' => true,
                 'label' => false
             ])
-            ->add( 'center', HiddenType::class);
+            ->add( 'center', HiddenType::class, [
+                'attr' => [
+                    'value' => 'aucun centre sélectionné'
+                ]
+            ]);
         ;
     }
 
